@@ -11,20 +11,111 @@
 </head>
 
 <body class="work-sans-font">
-    <header class="banner-container default-styles bg-black text-white rounded-[10px] md:rounded-[30px] flex md:flex-row flex-col items-center">
-            <div class="banner-content md:w-[50%] px-12 md:pl-[10%] pt-10 md:text-left text-center ">
-                <h1 class="hero-title font-bold text-[1.5rem] lg:text-[4.375rem] md:text-[2.5rem] lg:leading-20 md:leading-12 sm:leading-8">The Greatest show on the earth</h1>
-                <p class="hero-description leading-6 my-6 lg:text-[1rem] md:text-[0.88rem]">Contrary to popular belief, Lorem Ipsum is not simply
-                    random <span class="hidden lg:inline"> It has roots in a piece of classical Latin literature from 45 BC, making it over 2000
+    <header
+        class="banner-container default-styles mx-5 md:mx-12 lg:mx-auto mt-12  bg-black text-white rounded-[10px] md:rounded-[30px] flex md:flex-row flex-col items-center">
+        <div class="banner-content md:w-[50%] px-12 md:pl-[10%] pt-10 md:text-left text-center ">
+            <h1
+                class="hero-title font-bold text-[1.5rem] lg:text-[4.375rem] md:text-[2.5rem] lg:leading-20 md:leading-12 sm:leading-8">
+                The Greatest show on the earth</h1>
+            <p class="hero-description leading-6 my-6 lg:text-[1rem] md:text-[0.88rem]">Contrary to popular belief,
+                Lorem Ipsum is not simply
+                random <span class="hidden lg:inline"> It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000
                     years old.</span></p>
-                <button class="hero-btn bg-red-700 py-1.5 px-5 md:py-4 md:px-7 text-[1.25rem] rounded-[5px]">Watch Live<i
-                        class="fa-solid fa-angle-right pl-2"></i></button>
-            </div>
-            <div class="banner-img pt-10 md:pr-3 lg:pr-0">
-                <img src="./assets/img/banner/banner-img.png" alt="a football player" class="block pl-16 pr-10 md:px-0 md:scale-100">
-            </div>
+            <button class="hero-btn bg-red-700 py-1.5 px-5 md:py-4 md:px-7 text-[1.25rem] rounded-[5px]">Watch Live<i
+                    class="fa-solid fa-angle-right pl-2"></i></button>
+        </div>
+        <div class="banner-img pt-10 md:pr-3 lg:pr-0">
+            <img src="./assets/img/banner/banner-img.png" alt="a football player"
+                class="block pl-16 pr-10 md:px-0 md:scale-100">
+        </div>
     </header>
+    <!-- header ^^^ -->
 
+    <main class="default-styles mb-32 mx-5 md:mx-12 lg:mx-auto">
+        <section class="upcoming-match mt-6 md:mt-24 lg:flex gap-10">
+            <div
+                class="left-card flex flex-col md:flex-row md:justify-between lg:flex-col gap-4 lg:gap-7 lg:bg-black lg:p-8 rounded-[10px] font-medium text-[1.25rem] lg:w-[25%] lg:h-fit mb-8">
+                <button class="bg-white rounded-[10px] text-black py-4 lg:px-8  flex-1/2 border-[1px] border-gray-300">Upcoming Match</button>
+                <button class="bg-white rounded-[10px] text-black py-4 lg:px-12 flex-1/2 border-[1px] border-gray-300">All Group</button>
+                <button class="bg-red-700 rounded-[10px] text-white py-4 lg:px-12 flex-1/2">Blog</button>
+            </div>
+            <div class="match-cards grid md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-5 lg:w-[75%]">
+                <div class="match-card rounded-b-lg border-[1px] border-gray-300 ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-5 ">
+                        <button class="bg-transparent border-2 border-gray-700 py-1 px-4 rounded-[5px] font-medium">Transfer</button>
+                        <p class="my-4 font-semibold text-[1.1rem]">Transfer Live: Chlesea in talks over Kimpenbe
+                            transfer</p>
+                        <div class="button-icons flex gap-8 text-gray-500">
+                            <i class="fa-regular fa-clock"><span class="inline-block pl-2.5">10 h</span></i>
+                            <i class="fa-regular fa-message"><span class="inline-block pl-2.5">23</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card rounded-b-lg border-[1px] border-gray-300 ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-5 ">
+                        <button class="bg-transparent border-2 border-gray-700 py-1 px-4 rounded-[5px] font-medium">Transfer</button>
+                        <p class="my-4 font-semibold text-[1.1rem]">Transfer Live: Chlesea in talks over Kimpenbe
+                            transfer</p>
+                        <div class="button-icons flex gap-8 text-gray-500">
+                            <i class="fa-regular fa-clock"><span class="inline-block pl-2.5">10 h</span></i>
+                            <i class="fa-regular fa-message"><span class="inline-block pl-2.5">23</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card rounded-b-lg border-[1px] border-gray-300 ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-5 ">
+                        <button class="bg-transparent border-2 border-gray-700 py-1 px-4 rounded-[5px] font-medium">Transfer</button>
+                        <p class="my-4 font-semibold text-[1.1rem]">Transfer Live: Chlesea in talks over Kimpenbe
+                            transfer</p>
+                        <div class="button-icons flex gap-8 text-gray-500">
+                            <i class="fa-regular fa-clock"><span class="inline-block pl-2.5">10 h</span></i>
+                            <i class="fa-regular fa-message"><span class="inline-block pl-2.5">23</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card rounded-b-lg border-[1px] border-gray-300 ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-5 ">
+                        <button class="bg-transparent border-2 border-gray-700 py-1 px-4 rounded-[5px] font-medium">Transfer</button>
+                        <p class="my-4 font-semibold text-[1.1rem]">Transfer Live: Chlesea in talks over Kimpenbe
+                            transfer</p>
+                        <div class="button-icons flex gap-8 text-gray-500">
+                            <i class="fa-regular fa-clock"><span class="inline-block pl-2.5">10 h</span></i>
+                            <i class="fa-regular fa-message"><span class="inline-block pl-2.5">23</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card rounded-b-lg border-[1px] border-gray-300 ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-5 ">
+                        <button class="bg-transparent border-2 border-gray-700 py-1 px-4 rounded-[5px] font-medium">Transfer</button>
+                        <p class="my-4 font-semibold text-[1.1rem]">Transfer Live: Chlesea in talks over Kimpenbe
+                            transfer</p>
+                        <div class="button-icons flex gap-8 text-gray-500">
+                            <i class="fa-regular fa-clock"><span class="inline-block pl-2.5">10 h</span></i>
+                            <i class="fa-regular fa-message"><span class="inline-block pl-2.5">23</span></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card rounded-b-lg border-[1px] border-gray-300 ">
+                    <img src="./assets/img/matches/matches_3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-5 ">
+                        <button class="bg-transparent border-2 border-gray-700 py-1 px-4 rounded-[5px] font-medium">Transfer</button>
+                        <p class="my-4 font-semibold text-[1.1rem]">Transfer Live: Chlesea in talks over Kimpenbe
+                            transfer</p>
+                        <div class="button-icons flex gap-8 text-gray-500">
+                            <i class="fa-regular fa-clock"><span class="inline-block pl-2.5">10 h</span></i>
+                            <i class="fa-regular fa-message"><span class="inline-block pl-2.5">23</span></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>z
 </body>
 
 </html>
